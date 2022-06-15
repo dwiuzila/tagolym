@@ -1,0 +1,11 @@
+{
+    "nocommand": true,
+    "stem": true,
+    "ngram_max_range": 3,
+    "loss": "hinge",
+    "l1_ratio": 0.045227288910538066,
+    "alpha": 9.46217535646148e-05,
+    "learning_rate": "optimal",
+    "eta0": 0.06613644475520926,
+    "power_t": 0.1055917838247388
+}

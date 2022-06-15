@@ -1,0 +1,16 @@
+site_name: Tagolym
+site_url: https://tagolym.com/
+# repo_url: https://github.com/GokuMohandas/MLOps/
+nav:
+  - Home: index.md
+  - Workflows:
+    - Main: tagolym/main.md
+  - tagolym:
+    - data: tagolym/data.md
+    - evaluate: tagolym/evaluate.md
+    - predict: tagolym/predict.md
+    - train: tagolym/train.md
+    - utils: tagolym/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
