@@ -1,3 +1,3 @@
 # tagolym
 
-Classify olympiad math problems instantly.
+Tag Olympiad math problems into algebra, combinatorics, geometry, or number theory.
