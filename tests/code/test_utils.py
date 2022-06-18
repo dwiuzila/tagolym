@@ -1,5 +1,7 @@
 import numpy as np
+
 from tagolym import utils
+
 
 class TestNumpyEncoder:
     @classmethod
