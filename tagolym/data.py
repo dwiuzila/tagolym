@@ -50,7 +50,7 @@ def preprocess_problem(x, nocommand=False, stem=False):
     # stemming
     if stem:
         x = " ".join(porter.stem(word) for word in x.split())
-    
+
     x = x.strip()
 
     return x
