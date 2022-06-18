@@ -25,6 +25,10 @@ MODEL_REGISTRY = Path(STORES_DIR, "model")
 MODEL_REGISTRY.mkdir(parents=True, exist_ok=True)
 mlflow.set_tracking_uri("file:///" + str(MODEL_REGISTRY.absolute()))
 
+# dvc
+BLOB_STORE = Path(STORES_DIR, "blob")
+BLOB_STORE.mkdir(parents=True, exist_ok=True)
+
 # logging
 LOGS_DIR = Path(BASE_DIR, "logs")
 LOGS_DIR.mkdir(parents=True, exist_ok=True)

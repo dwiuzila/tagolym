@@ -28,3 +28,9 @@ clean: style
 test:
 	pytest tests
 	cd tests && great_expectations checkpoint run math_problems
+
+# DVC
+.PHONY: dvc
+dvc:
+	dvc add data/math_problems.json
+	dvc push

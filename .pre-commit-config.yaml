@@ -38,3 +38,11 @@ repos:
     hooks:
     -   id: pyupgrade
         args: [--py36-plus]
+-   repo: local
+    hooks:
+    -   id: dvc
+        name: dvc
+        entry: make
+        args: ["dvc"]
+        language: system
+        pass_filenames: false
