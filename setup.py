@@ -4,12 +4,12 @@ from setuptools import find_namespace_packages, setup
 
 # load packages from requirements.txt
 BASE_DIR = Path(__file__).parent
-with open(Path(BASE_DIR, "requirements.txt"), "r") as file:
+with open(Path(BASE_DIR, "requirements.txt")) as file:
     required_packages = [ln.strip() for ln in file.readlines()]
 
 # define our package
 setup(
-    name="Tagolym",
+    name="tagolym",
     version=0.1,
     description="Classify math olympiad problems.",
     author="Albers Uzila",
