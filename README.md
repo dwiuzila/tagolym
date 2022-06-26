@@ -62,5 +62,5 @@ make help
 ## API
 ```bash
 # Update RUN_ID inside config/run_id.txt
-uvicorn app.api:app --host 0.0.0.0 --port 8000 --reload --reload-dir tagifai --reload-dir app  # dev
+uvicorn app.api:app --host 0.0.0.0 --port 8000 --reload --reload-dir tagolym --reload-dir app  # dev
 ```
